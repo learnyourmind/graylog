@@ -1,0 +1,7 @@
+[rhel7_epel]
+name=rhel7epel
+baseurl=http://172.21.68.11/repo/yum/rhel/70/PackagesEpel
+enabled=1
+gpgcheck=1
+gpgkey=http://172.21.68.11/repo/yum/rhel/70/PackagesEpel/repodata
+

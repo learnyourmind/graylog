@@ -1,0 +1,16 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'export-node', '~> 1.0.1'
+cookbook 'devops-base',
+	git: 'http://172.21.68.8:8080/scm/cd/devops-base.git',
+	branch: 'master'
+
+#cookbook 'export-node', git: 'http://dostash:dostash@172.21.68.8:8080/scm/cc/export-node.git'
+#cookbook 'devops-base', git: 'http://dostash:dostash@172.21.68.8:8080/scm/cd/devops-base.git'
+#cookbook 'bcuk-ad', path: "/home/pavank/chef-repo/bcuk-cookbooks/bcuk-ad"
+
+#cookbook "mongodb", path: "/home/pavank/chef-repo/community-cookbooks/mongodb"
+#cookbook "elasticsearch", path: "/home/pavank/chef-repo/community-cookbooks/elasticsearch"
+#cookbook "graylog2", path: "/home/pavank/chef-repo/community-cookbooks/graylog2"
